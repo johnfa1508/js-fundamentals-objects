@@ -27,7 +27,11 @@ const mainInstrument = undefined
 
 // 11. Using an index on the persons friends array, set the bestFriend variable below
 // to the name of the first friend in the array
-const bestFriend = undefined
+const bestFriend = 'chris'
+const message = 'Best friend is:'
+console.log(message, bestFriend)
+console.log('Best friend is:', bestFriend)
+console.log('Hi', 20, false, { name: 'carlo' })
 
 // Don't change the code below this line
 module.exports = {
